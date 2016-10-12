@@ -1,0 +1,16 @@
+*vim-base64.txt*  Utilities to base64encode/decode strings
+
+Author:  Christian Rondeau <http://christianrondeau.net/>
+License: Same terms as Vim itself (see |license|)
+
+INTRODUCTION                                    *vim-base64*
+
+A set of leader commands to encode and decode base 64 strings
+
+ABOUT                                           *vim-base64-about*
+
+Grab the latest version or report a bug on GitHub:
+
+http://github.com/christianrondeau/vim-base64
+
+ vim:tw=78:et:ft=help:norl:
