@@ -7,6 +7,13 @@ INTRODUCTION                                    *vim-base64*
 
 A set of leader commands to encode and decode base 64 strings
 
+MAPPINGS                                        *vim-base64-mappings*
+                                                *vim-base64-<leader>-btoa*
+<leader>btoa            Decodes the visually selected base64 string
+
+                                                *vim-base64-<leader>-atob*
+<leader>atob            Base64 encodes the visually selected string
+
 ABOUT                                           *vim-base64-about*
 
 Grab the latest version or report a bug on GitHub:
