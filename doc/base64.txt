@@ -1,0 +1,40 @@
+*base64.txt*  Utilities to base64encode/decode strings
+
+Author:  Christian Rondeau <http://christianrondeau.net/>
+License: Same terms as Vim itself (see |license|)
+
+==============================================================================
+
+INTRODUCTION                                                          *base64*
+
+A set of leader commands to encode and decode base 64 strings
+
+COMMANDS                                                     *base64-commands*
+
+                                                        *base64-base64#encode*
+:base64#encode(input)   Encodes the provided input string
+
+                                                        *base64-base64#decode*
+:base64#decode(input)   Decodes the provided input string
+
+MAPPINGS                                                     *base64-mappings*
+
+                                                        *base64-<leader>-btoa*
+<leader>btoa            Decodes the visually selected base64 string
+
+                                                        *base64-<leader>-atob*
+<leader>atob            Base64 encodes the visually selected string
+
+                                                       *base64-<leader>-atob/*
+<leader>btoa/           Starts a command line for decoding a regex submatch
+
+                                                       *base64-<leader>-atob/*
+<leader>atob/           Starts a command line for encoding a regex submatch
+
+ABOUT                                                           *base64-about*
+
+Download the latest version or report a bug on GitHub:
+
+http://github.com/christianrondeau/base64
+
+vim:tw=78:et:ft=help:norl:
