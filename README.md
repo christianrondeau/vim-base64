@@ -1,21 +1,21 @@
 # Vim Base64
 
-Converts from/to base64 using `base64` on Linux and Python on Windows
+Encodes/decodes base64 strings using `base64` on Linux and `Python` on Windows
 
 # Installation
 
 ## Prerequisites
 
 * On Linux, you need `base64` from `coreutils` installed.
-* On Windows, you need `Python`.
+* On Windows, you need [Python](https://www.python.org/downloads/windows/).
 
 ## Vundle
 
-Use your preferred Vim plugin installation method. If you like [Vundle]:
+Use your preferred Vim plugin installation method. If you like [Vundle](https://github.com/VundleVim/Vundle.vim):
 
 Add to your `.vimrc`:
 
-    Plugin 'pangloss/vim-javascript'
+    Plugin 'christianrondeau/vim-base64'
 
 And install it:
 
