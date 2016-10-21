@@ -1,0 +1,12 @@
+Given (a string):
+  abc
+
+Do (go back and forth):
+  lv
+  \<space>atob
+  \<space>btoa
+  \<space>atob
+  \<space>btoa
+
+Expect (that text was still visually selected):
+  abc

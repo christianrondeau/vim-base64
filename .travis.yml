@@ -1,5 +1,9 @@
 language: vim
 
+before_install:
+  - sudo apt-get -qq update
+  - sudo apt-get install -y vim
+
 before_script: |
   git clone https://github.com/junegunn/vader.vim.git
 
