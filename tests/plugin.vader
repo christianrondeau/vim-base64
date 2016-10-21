@@ -1,0 +1,8 @@
+Execute (encode functions):
+  let result = base64#encode('Abc123')
+  AssertEqual 'QWJjMTIz', result
+
+Execute (decode functions):
+  let result = base64#decode('QWJjMTIz')
+  AssertEqual 'Abc123', result
+
