@@ -36,3 +36,7 @@ After replacement, the new text will automatically be visually selected.
 
 * `<leader>btoa` to convert from base64 to a string
 * `<leader>atob` to convert from a string to base64
+
+# Contributions
+
+Before making pull requests, make sure that [tests](tests/) still pass. They are using [Vader.vim](https://github.com/junegunn/vader.vim).
