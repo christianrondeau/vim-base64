@@ -1,7 +1,5 @@
-Given (a base64 string):
-  <value>QWJjMTIz</value>
-
 Do (visual decode):
+  i<value>QWJjMTIz</value>\<Esc>0
   f>lvt<
   \<space>btoa
 

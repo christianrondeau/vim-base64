@@ -1,7 +1,5 @@
-Given (a string):
-  <value>Abc123</value>
-
 Do (visual encode):
+  i<value>Abc123</value>\<Esc>0
   f>lvt<
   \<space>atob
 
