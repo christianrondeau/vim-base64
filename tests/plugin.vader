@@ -1,3 +1,5 @@
+" Functions
+
 Execute (encode function):
   let result = base64#encode('Abc123')
   AssertEqual 'QWJjMTIz', result
@@ -6,3 +8,37 @@ Execute (decode function):
   let result = base64#decode('QWJjMTIz')
   AssertEqual 'Abc123', result
 
+" Visual mode
+
+Given (a string):
+  <value>Abc123</value>
+
+Do (visual encode):
+  f>lvt<
+  \<space>atob
+
+Expect (encoded string):
+  <value>QWJjMTIz</value>
+
+Given (a base64 string):
+  <value>QWJjMTIz</value>
+
+Do (visual decode):
+  f>lvt<
+  \<space>btoa
+
+Expect (decoded string):
+  <value>Abc123</value>
+
+Given (a string):
+  abc
+
+Do (go back and forth):
+  lv
+  \<space>atob
+  \<space>btoa
+  \<space>atob
+  \<space>btoa
+
+Expect (that text was still visually selected):
+  abc
