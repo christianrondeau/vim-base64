@@ -2,8 +2,7 @@ Given (a string):
   <value>Abc123</value>
 
 Do (visual encode):
-  f>lvt<
-  \<space>atob
+  aIT WORKS
 
 Expect (encoded string):
   <value>QWJjMTIz</value>
