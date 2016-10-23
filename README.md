@@ -4,6 +4,8 @@ Encodes/decodes base64 strings using `base64` on Linux and `Python` on Windows
 
 [![Build Status](https://travis-ci.org/christianrondeau/vim-base64.svg?branch=master)](https://travis-ci.org/christianrondeau/vim-base64)
 
+[![asciicast](https://asciinema.org/a/90272.png)](https://asciinema.org/a/90272)
+
 # Installation
 
 ## Prerequisites
