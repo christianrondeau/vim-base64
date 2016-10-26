@@ -1,5 +1,7 @@
+Given (a string):
+  abc
+
 Do (go back and forth):
-  iabc\<Esc>
   lv
   \<space>atob
   \<space>btoa

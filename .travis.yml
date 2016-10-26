@@ -9,8 +9,9 @@ before_install:
   - sudo apt-get -qq update
   - sudo apt-get install -y vim
 
-before_script: |
-  git clone https://github.com/junegunn/vader.vim.git
+before_script:
+  - git clone https://github.com/junegunn/vader.vim.git
+  - cat vader.vim/.git/refs/heads/master
 
 script: |
   vim -Nu <(cat << VIMRC
@@ -21,4 +22,4 @@ script: |
   filetype plugin indent on
   syntax enable
   let mapleader = "\<Space>"
-  VIMRC) -c 'Vader! tests/*' > /dev/null
+  VIMRC) -c 'Vader! tests/*'
