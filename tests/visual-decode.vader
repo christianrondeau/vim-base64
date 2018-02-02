@@ -3,7 +3,7 @@ Given (an encoded string):
 
 Do (visual decode):
   f>lvt<
-  \<space>btoa
+  \<space>atob
 
 Expect (decoded string):
   <value>Abc123</value>

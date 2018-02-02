@@ -3,10 +3,10 @@ Given (a string):
 
 Do (go back and forth):
   lv
-  \<space>atob
   \<space>btoa
   \<space>atob
   \<space>btoa
+  \<space>atob
 
 Expect (that text was still visually selected):
   abc

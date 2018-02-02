@@ -36,8 +36,8 @@ Note that if you provide invalid base64 strings, your text will ben replaced by 
 
 After replacement, the new text will automatically be visually selected.
 
-* `<leader>btoa` to convert from base64 to a string
-* `<leader>atob` to convert from a string to base64
+* `<leader>atob` to convert from base64 to a string
+* `<leader>btoa` to convert from a string to base64
 
 # Contributions
 
