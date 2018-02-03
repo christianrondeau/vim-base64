@@ -6,6 +6,8 @@ Encodes/decodes base64 strings using `base64` on Linux and `Python` on Windows
 
 [![asciicast](https://asciinema.org/a/90272.png)](https://asciinema.org/a/90272)
 
+_Note: In this video, `atob` and `btoa` are reversed!_
+
 # Installation
 
 ## Prerequisites
