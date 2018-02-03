@@ -15,7 +15,9 @@ Encodes/decodes base64 strings using `base64` on Linux and `Python` on Windows
 
 ## Vundle
 
-Use your preferred Vim plugin installation method. If you like [Vundle](https://github.com/VundleVim/Vundle.vim):
+Use your preferred Vim plugin installation method.
+
+If you like [Vundle](https://github.com/VundleVim/Vundle.vim):
 
 Add to your `.vimrc`:
 
@@ -25,6 +27,17 @@ And install it:
 
     :so ~/.vimrc
     :PluginInstall
+
+Or with [vim-plug](https://github.com/junegunn/vim-plug):
+
+Add to your `.vimrc`:
+
+    Plug 'christianrondeau/vim-base64'
+
+And install it:
+
+    :so ~/.vimrc
+    :PlugInstall
 
 # Usage
 
@@ -42,3 +55,5 @@ After replacement, the new text will automatically be visually selected.
 # Contributions
 
 Before making pull requests, make sure that [tests](tests/) still pass. They are using [Vader.vim](https://github.com/junegunn/vader.vim).
+
+To run tests, either use `:Vader tests/*` from the `vim-base64` folder, or `:Vader %` from within a test file.
