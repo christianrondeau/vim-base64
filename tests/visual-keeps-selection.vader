@@ -1,5 +1,7 @@
 Given (a string):
   abc
+    def
+    ghi
 
 Do (go back and forth):
   lv
@@ -10,3 +12,5 @@ Do (go back and forth):
 
 Expect (that text was still visually selected):
   abc
+    def
+    ghi
