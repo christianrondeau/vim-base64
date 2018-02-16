@@ -54,6 +54,10 @@ After replacement, the new text will automatically be visually selected.
 * `<leader>atob` to convert from base64 to a string
 * `<leader>btoa` to convert from a string to base64
 
+## Doing a regex replacement
+
+You can also, in normal mode, replace all instances of a regular expression by their base64 representation, using `<leader>btoa/` or `<leader>atob/`. This will insert a command mode string, with your cursor directly where you can type the regular expression.
+
 # Contributions
 
 Before making pull requests, make sure that [tests](tests/) still pass. They are using [Vader.vim](https://github.com/junegunn/vader.vim).

@@ -1,6 +1,6 @@
 " Visual Mode mappings
-vnoremap <silent> <leader>atob c<c-r>=base64#decode(@")<cr><esc>`[v`]h
-vnoremap <silent> <leader>btoa c<c-r>=base64#encode(@")<cr><esc>`[v`]h
+vnoremap <silent> <leader>atob :<c-u>call base64#v_atob()<cr>
+vnoremap <silent> <leader>btoa :<c-u>call base64#v_btoa()<cr>
 
 " Regex mappings
 nnoremap <leader>btoa/ :%s/\v()/\=base64#encode(submatch(1))/<home><right><right><right><right><right><right>
