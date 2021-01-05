@@ -20,16 +20,16 @@ COMMANDS                                                     *base64-commands*
 MAPPINGS                                                     *base64-mappings*
 
                                                         *debase64-<leader>-btoa*
-<leader>btoa            Decodes the visually selected base64 string
+<leader>btoa            Base64 encodes the visually selected string
 
                                                         *base64-<leader>-atob*
-<leader>atob            Base64 encodes the visually selected string
+<leader>atob            Decodes the visually selected base64 string
 
                                                        *base64-<leader>-atob/*
-<leader>btoa/           Starts a command line for decoding a regex submatch
+<leader>btoa/           Starts a command line for encoding a regex submatch
 
                                                        *base64-<leader>-btoa/*
-<leader>atob/           Starts a command line for encoding a regex submatch
+<leader>atob/           Starts a command line for decoding a regex submatch
 
 ABOUT                                                           *base64-about*
 
