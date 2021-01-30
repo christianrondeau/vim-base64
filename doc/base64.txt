@@ -30,6 +30,12 @@ MAPPINGS                                                     *base64-mappings*
 
                                                        *base64-<leader>-btoa/*
 <leader>atob/           Starts a command line for decoding a regex submatch
+OPTIONS                                                      *base64-options*
+
+You can set the option `g:vim_base64_disable_default_key_mappings` to disable default
+mappings created by the plugin
+>
+  let g:vim_base64_disable_default_key_mappings = 1
 
 ABOUT                                                           *base64-about*
 
